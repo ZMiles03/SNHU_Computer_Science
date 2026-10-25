@@ -47,19 +47,25 @@ SNHU Computer Science 230
 
 
 Briefly summarize The Gaming Room client and their software requirements. Who was the client? What type of software did they want you to design?
+
 The Gaming Room was a client looking to expand its existing Android game, Draw It or Lose It, into a web-based application that could operate across multiple platforms. The software needed to support multiple teams and players while ensuring each game and team had a unique name. The client also needed a system that could manage multiple game sessions efficiently while maintaining security and consistent performance.
 
 What did you do particularly well in developing this documentation?
+
 I believe I did particularly well in comparing different operating systems and identifying which would best support the applications requirements. I evaluated Windows, Linux, macOS, and mobile platforms based on their performance, compatibility, and resource management. This helped me recommend Linux as a suitable server platform because of its flexibility, scalability, and lower licensing costs.
 
 What about the process of working through a design document did you find helpful when developing the code?
+
 Working through the design document helped me understand how the different components of the application needed to interact before implementing them into code. Creating the domain model helped me organize the relationships between games, teams, and players. It also helped me understand where design patterns, such as the Singleton and Iterator patterns, could be used to manage game instances and retrieve information efficiently.
 
 If you could choose one part of your work on these documents to revise, what would you pick? How would you improve it?
+
 If I could revise one apart of my documentation, I would focus on improving the UML diagram and how it represents the relationships between different classes. I would make the corrections and multiplicities clearer to better illustrate how games, teams, and players interact. I would also include more detailed explanations of the design patterns to make the documentation easier for developers to understand.
 
 How did you interpret the user’s needs and implement them into your software design? Why is it so important to consider the user’s needs when designing?
+
 I interpreted the clients needs by identifying the application's functional requirements, including support for multiple platforms, unique game and team names, and multiple players. I incorportated these requirements into the design by using object-orientated programming principles, design patterns, and a client-server architecture. Considering the user's needs is also important because it ensures the software is designed around its intended purpose while reducing the likelihood of compatibility issues or unnecessary changes later.
 
 How did you approach designing software? What techniques or strategies would you use in the future to analyze and design a similar software application?
+
 I approached the software design process by first reviewing the client's requirements and breaking them down into smaller components. From there, I evaluated operating systems, developed the class structure, and considered how the application would handle storage, memory, networking, and sercurity. In future projects, I would follow a similar approach while placing additional emphasis on documenting class relationships, testing individual components, and identifying potential design issues earlier in development. 
